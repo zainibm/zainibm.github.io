@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Project Three: Form</title>
+        <link rel = "stylesheet" href = "formStyle.css">
+    </head>
+    <body>
+        <h1>Project Three: Form</h1>
+        <div class = "bg-img" style = "font-family: 'Lucida Console'">
+            <form class = "container">
+                <label for = "tempOptions">Conversion Type:</label><br><br>
+                <input type = "radio" id = "FtoC" name = "tempOptions" value = "FtoC" checked = checked>
+                <label for = "FtoC">Fahrenheit to Celsius</label><br>
+                <input type = "radio" id = "CtoF" name = "tempOptions" value = "CtoF">
+                <label for = "CtoF">Celsius to Fahrenheit</label><br><br>
+
+                <label for = "temp">Enter Temperature</label><br><br>
+                <input type = "text" id = "tempValue" name = "tempValue" required placeholder = "32">
+                <input type = "button" id = "convert" onclick = "tempCalc()" value = "Convert!">
+                <p id = "display"></p>
+                <input type = "button" id = "reset" onclick = "resetCalc()" value = "Reset">
+            </form>
+        </div>
+        <div>
+            <script src = "forms.js"></script>
+            <a href = "zainibm.github.io"><p></p>Return to Portfolio Page</a>
+        </div>
+    </body>
+</html>
