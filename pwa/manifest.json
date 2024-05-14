@@ -1,0 +1,20 @@
+{
+    "name": "Temperature Conversion",
+    "short_name": "Temperature Conversion",
+    "start_url": "form_lab.html",
+    "background-color": "#FFAA33",
+    "theme-color": "#FA5F55",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/cloudy192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/cloudy512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
